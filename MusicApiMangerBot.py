@@ -107,7 +107,7 @@ BOT_TOKEN = _env("MUSIC_BOT_TOKEN") or _env("TELEGRAM_BOT_TOKEN")
 BOT_NAME = _env("BOT_NAME", "Music Api Manager Bot")
 
 # Where the FastAPI app listens. Keep it on localhost.
-API_BASE = _env("MUSIC_API_BASE", "http://127.0.0.1:8080").rstrip("/")
+API_BASE = _env("MUSIC_API_BASE", "https://conferencing-output-smith-distributions.trycloudflare.com").rstrip("/")
 
 # Must be identical to BOT_API_SECRET on the API side.
 BOT_SECRET = _env("BOT_API_SECRET")
